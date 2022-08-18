@@ -1,5 +1,5 @@
 # In the project terminal to upload the project zip to aws s3.
-zip -r project.zip . -x node_modules\* dist\* && aws s3 cp project.zip s3://typescript-express-artifact/code-deploy-1/project.zip
+zip -r project.zip . -x node_modules\* dist\* .git\* && aws s3 cp project.zip s3://typescript-express-artifact/code-deploy-1/project.zip
 
 
 
