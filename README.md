@@ -1,3 +1,5 @@
+# Youtube video link : https://youtu.be/cDcZUbJFiYw
+
 # NodeJs TypeScript Express App Deploy to EC2 using AWS S3 Artifact.
 
 Steps
