@@ -8,6 +8,7 @@ Steps
     2.3. Create a bucket - typescript-express-artifact 
     2.4. Create a role with S3 full access. 
     2.5. Create a demo IAM User and configure the AWS Cli. 
+    2.6 AWS Cli - install : https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 3. Create the instance - and choose key pair and security group
 4. SSH into the instance and install nodejs 
 5. Create project folder in the server. 
