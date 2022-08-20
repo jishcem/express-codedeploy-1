@@ -1,3 +1,5 @@
+NodeJs TypeScript Express App Deploy to EC2 using AWS S3 Artifact.
+
 # In the project terminal to upload the project zip to aws s3.
 zip -r project.zip . -x node_modules\* dist\* .git\* && aws s3 cp project.zip s3://typescript-express-artifact/code-deploy-1/project.zip
 
